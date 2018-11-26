@@ -1,0 +1,17 @@
+Fire Browser 启动后的默认节点位于美国。此外 Fire Browser 还提供其他三个地区的节点翻墙。分别位于：
+
+美国（Amazon EC2）（IPV4）（us）
+爱尔兰（Amazon EC2）（IPV4）（ie）
+日本（GMO.jp）（IPV4）（jp）
+陶立宛（Hostinger）（IPV4/IPV6）（lt）
+步骤
+打开根目录内的 GoAgent 文件夹，找到 proxy.ini 文件，用文本编辑器打开。
+看到首行的 [php] 字段，再找到第八行的 fetchserver = http://us.asahi.cf/，将其域名前缀修改为上述节点的英文简写即可。如 http://ie.asahi.cf/ 等。
+保存并退出，第二次启动时节点已更改。
+备注
+新加入 日本（GMO.jp） 节点。
+密码：123456
+fetchserver = http://us.asahi.cf/
+fetchserver = http://ie.asahi.cf/
+fetchserver = http://jp.asahi.cf/
+fetchserver = http://lt.asahi.cf/
